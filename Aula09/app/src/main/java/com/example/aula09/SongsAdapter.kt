@@ -31,7 +31,7 @@ class SongsViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
     fun bind(song: Song, onItemClickListener: ItemClickListener) {
         val songDurationMin = kotlin.math.floor((song.duration / 60).toDouble()).toInt()
         val songDurationSec = song.duration % 60
-        val songDurationText = "$songDurationMin:$songDurationSec"
+        val songDurationText = String.format("%02d:%02d", songDurationMin, songDurationSec)
         view.apply {
             setOnClickListener { onItemClickListener.onClick(song) }
             findViewById<TextView>(R.id.songName).text = song.name
