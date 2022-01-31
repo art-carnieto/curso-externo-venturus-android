@@ -41,7 +41,7 @@ class SongsData {
         ),
         Song(
             name = "Désolé (feat. Fatoumata Diawara)",
-            duration = 263
+            duration = 236
         ),
         Song(
             name = "Rolling In the Deep (The Aretha Version)",
