@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/imageView4"
+        android:layout_alignTop="@id/imageView4"
+        android:layout_alignEnd="@id/imageView4"
+        android:layout_alignBottom="@id/imageView4"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:layout_margin="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView7"
+        android:layout_alignBottom="@id/imageView7"
+        android:layout_toEndOf="@id/imageView7"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Relative Layout"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView7"
+        android:layout_alignStart="@id/imageView7"
+        android:layout_marginRight="30dp"
+        android:justificationMode="inter_word"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem nisi, condimentum vitae tempor non, facilisis vitae velit. Sed euismod felis ut diam aliquam, a aliquam est auctor. Praesent porttitor congue ligula vel sagittis. Nam nec rhoncus urna. Nunc et faucibus leo. Ut rhoncus velit ut odio aliquam, id semper libero bibendum. In gravida nisl vitae nisl fermentum congue. Nunc nulla est, placerat ut fermentum a, ultricies vel felis. Morbi sed neque non nunc vestibulum venenatis. In purus eros, feugiat eget tellus ut, convallis egestas sem. Nullam eget bibendum ligula." />
+
+
+
+</RelativeLayout>
