@@ -3,4 +3,5 @@
     <string name="alert_dialog_ok">OK</string>
     <string name="alert_dialog_title">Seja bem-vindo(a)!</string>
     <string name="alert_dialog_message">Esta é a sua primeira vez usando o app Aula 12. Aproveite a experiência! Ao clicar em OK esta mensagem não será mais mostrada.</string>
+    <string name="welcome_dialog_dismiss_key">false</string>
 </resources>
