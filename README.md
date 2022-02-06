@@ -12,4 +12,4 @@ Curso externo de Android em Kotlin da vnt/school do Venturus.
 | 09 | Criar uma lista de músicas e tempo de duração delas usando o RecyclerView. | ✔ |
 | 10 | Pegar algum exercício anterior e mudar o armazenamento de dados para ViewModel. | ⏳ |
 | 11 | Simular uma tarefa pesada usando coroutines e a função "delay". | ⏳ |
-| 12 | Criar um aviso ou wizard para mostrar na primeira vez que abrir o app. Quando clicar em ok, não mostrar mais este aviso, mesmo fechando o app ou reiniciando o celular (persistir a mudança). Mas, assim que limpar os dados do aplicativo nas configurações, voltar a aparecer este aviso ao abrir o app, como se estivesse abrindo pela primeira vez. (Usar SharedPreferences!) | ⏳ |
+| 12 | Criar um aviso ou wizard para mostrar na primeira vez que abrir o app. Quando clicar em ok, não mostrar mais este aviso, mesmo fechando o app ou reiniciando o celular (persistir a mudança). Mas, assim que limpar os dados do aplicativo nas configurações, voltar a aparecer este aviso ao abrir o app, como se estivesse abrindo pela primeira vez. (Usar SharedPreferences!) | ✔ |
