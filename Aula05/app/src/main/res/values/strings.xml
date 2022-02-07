@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aula 05</string>
+    <string name="title">Lesson 05</string>
+    <string name="main_text">Welcome to the lesson number 05! In this lesson we\'ll learn how to translate our app using the resources and tools given by the Android devs. For example, this text is in the default strings.xml file, that is in English. The translation of this text will be in another file.</string>
 </resources>
