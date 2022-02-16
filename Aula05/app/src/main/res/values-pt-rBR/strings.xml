@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aula 05</string>
+    <string name="title">Aula 05</string>
+    <string name="main_text">Bem-vindo(a) a lição número 05! Nesta lição vamos aprender como traduzir nosso app usando recursos e ferramentas dadas pelos desenvolvedores do Android. Por exemplo, este texto está em outro arquivo strings.xml, em português do Brasil.</string>
+</resources>
