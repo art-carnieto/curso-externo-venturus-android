@@ -22,15 +22,19 @@ class MainActivity : AppCompatActivity() {
 
         editTextName = findViewById(R.id.edittext_name)
         messageButton = findViewById(R.id.button_show_message)
+        textMessage = findViewById(R.id.text_message)
 
-        val name = editTextName.text.toString()
+        //val name = editTextName.text.toString()
         messageButton.setOnClickListener {
-            textMessage.text = name
+            textMessage.text = editTextName.text.toString()
         }
 
-        textMessage.addTextChangedListener { text ->
+        editTextName.addTextChangedListener { text ->
             if (text?.isBlank() == true) {
                 messageButton.visibility = View.INVISIBLE
+            }
+            else {
+                messageButton.visibility = View.VISIBLE
             }
         }
     }
