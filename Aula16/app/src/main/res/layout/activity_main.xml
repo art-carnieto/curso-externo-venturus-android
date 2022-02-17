@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
-        android:backgroundTint="#66BB6A"
+        android:backgroundTint="#247028"
         android:text="@string/product_learn_more"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/textview_description"
