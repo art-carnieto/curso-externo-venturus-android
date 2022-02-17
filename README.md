@@ -1,5 +1,10 @@
 # curso-externo-venturus-android
+
 Curso externo de Android em Kotlin da vnt/school do Venturus.
+
+Instrutor: [@igorescodro](https://github.com/igorescodro)
+
+Repositório das aulas: https://github.com/venturus-br/vnt-school-android
 
 | Aula | Desafio                           | Status |
 |------|-----------------------------------|-----|
